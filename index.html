@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Lingesh D</span><br>Developer from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="07.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Lingesh D, I am currently doing my bachelor of technology degree in St. Joseph's College of Engineering. I am thrilled to be applying for the role in your company. After reviewing your job description, it's clear that you're looking for an enthusiastic applicant that can be relied upon to fully engage with the role and develop professionally in a self-motivated manner. Given these requirements, I believe I am the perfect candidate for the job.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software Development</span><br>Develop softwares</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan-Mar 2024</span><br>Web app Development Intern</li>
+                            <li><span>Sep-Nov 2023</span><br>Technical Support Intern</li>
+                            <li><span>Apr-Jun 2023</span><br>Cyber Security Intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech-Information Technology<br> St.Joseph's College of Engineering</li>
+                            <li><span>2019</span><br>HSC from V.S Matric HR Sec School</li>
+                            <li><span>2018</span><br>SSLC from V.S Matric Hr Sec School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Software Development</h2>
+                    <p>"Engaged in collaborative coding sessions, debugging, and testing to deliver high-quality software. 
+                        Utilized agile methodologies for efficient project management and continuous improvement."</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>"Developed responsive web applications using HTML, CSS, and JavaScript. 
+                        Implemented features, optimized performance, and ensured cross-browser compatibility 
+                        for seamless user experiences."</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>App Development</h2>
+                    <p>"Designed and developed mobile applications for iOS and Android platforms using Swift and Kotlin. 
+                        Implemented UI/UX designs, integrated APIs, and conducted thorough testing for optimal performance."</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>"Contributed to the development of a social media app, implementing features like user profiles, news feeds, and messaging functionalities. Utilized Firebase for real-time data synchronization and user authentication."</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Music App</h2>
+                        <p>"Engineered a music app, integrating audio playback, playlist management, and offline capabilities. Implemented UI components for intuitive navigation and collaborated on integrating music streaming services for enhanced user experience."</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Online Shopping App</h2>
+                        <p>"Developed an online shopping app with features such as product browsing, cart management, and secure payment processing. Implemented user authentication and integrated third-party APIs for seamless product data retrieval."</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>lingeshd2003@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 9384125959</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/lijera"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/lingesh-d-13a785203/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/LingeshD763763"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/lingesh_d._/"><i class="fab fa-instagram"></i></a>
+                       
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ li1je2ra3. Made with <i class="fas fa-heart"></i> by Lingesh D</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
